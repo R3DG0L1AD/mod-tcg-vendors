@@ -49,10 +49,10 @@ enum TCGNPCEntries : uint32
 // ============================================================
 enum TCGNpcTextIds : uint32
 {
-    NPC_TEXT_LANDRO   = 90001,
-    NPC_TEXT_BLIZZCON = 90002,
-    NPC_TEXT_PROMO    = 90003,   // Garel Redrock / Tharl Stonebleeder
-    NPC_TEXT_WWI      = 90004,   // Edward Cairn / Ian Drake (Worldwide Invitational)
+    NPC_TEXT_LANDRO   = 9522200 + 1, // FamWoW m22: was 90001 (90003 is mod-premium)
+    NPC_TEXT_BLIZZCON = 9522200 + 2, // FamWoW m22: was 90002 (90003 is mod-premium)
+    NPC_TEXT_PROMO    = 9522200 + 3, // FamWoW m22: was 90003 (90003 is mod-premium)   // Garel Redrock / Tharl Stonebleeder
+    NPC_TEXT_WWI      = 9522200 + 4, // FamWoW m22: was 90004 (90003 is mod-premium)   // Edward Cairn / Ian Drake (Worldwide Invitational)
 };
 
 // ============================================================
